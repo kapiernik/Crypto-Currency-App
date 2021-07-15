@@ -10,23 +10,25 @@ export default function Header() {
 }
 
 const hundredPercent =  '100%';
-const half = '20%';
 
 
 const styles = StyleSheet.create({
   headerContainer: {
-    flex: 1,
+    display: 'flex',
     backgroundColor: '#fff',
-    width: hundredPercent
+    width: hundredPercent,
+    zIndex: 5
   },
   headerTitle: {
     borderStyle: 'solid',
-    padding: 24,
+    paddingBottom: 40,
+    paddingTop: 55,
     paddingLeft: 0,
     paddingRight: 0,
     fontSize: 24,
     textAlign: 'center',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    color: '#000'
   }
 });
 
